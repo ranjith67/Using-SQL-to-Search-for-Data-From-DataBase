@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: rgb(172, 171, 171);
+}
+.ground {
+  display: flex;
+  justify-content: left;
+}
+.ground form {
+  margin: 1rem;
+  border-radius: 6px;
+  display: flex;
+}
+.ground h4 {
+  color: #0f2027;
+  font-family: Arial, sans-serif;
+  margin: 1rem 0rem 0rem 1.7rem;
+  display: flex;
+  font-size: 1.2rem;
+}
+input {
+  padding: 0.2rem;
+  border-radius: 0.1rem;
+  outline: none;
+  border: none;
+  margin: 00.1rem;
+  opacity: 65%;
+}
+::placeholder {
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  color: #e6e6e6;
+}
+input[type="submit"] {
+  margin-left: -2px;
+  font-family: Arial, sans-serif;
+  font-size: 1rem;
+  text-align: center;
+  padding-bottom: 0.3rem;
+  background-color: #0f2027;
+  font-size: 12px;
+  width: 60px;
+  color: #e6e6e6;
+}
+input[type="submit"]:hover {
+  background-color: #037eae;
+  width: 70px;
+}
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  font-family: "Oswald", sans-serif;
+  font-weight: 900;
+  font-size: 0.7rem;
+}
+.hai {
+  display: flex;
+  width: 100%;
+  background: #0f2027; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: white;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  height: 10vh;
+  font-family: "Roboto Condensed", sans-serif;
+}
+.data {
+  margin: -0.6rem 1rem 1rem 1rem;
+  min-height: 5rem;
+  max-height: 100rem;
+  border-radius: 5px;
+  padding: 0.5rem;
+}
+.data table {
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+  background-color: white;
+}
+.data th {
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 1.3rem;
+  border: 1px solid black;
+  padding: 1rem;
+  background: #0f2027; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #2c5364,
+    #203a43,
+    #0f2027
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: white;
+}
+.data td {
+  border: 1px solid black;
+  font-family: Arial, sans-serif;
+  font-weight: 600;
+}
